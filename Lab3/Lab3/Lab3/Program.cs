@@ -32,7 +32,7 @@ using (ApplicationContext db = new ApplicationContext())
 Console.Write("\n1.Добавить");
 Console.Write("\n2.Редактировать");
 Console.Write("\n3.Удалить");
-Console.Write("\n Выберите желаемый пункт: ");
+Console.Write("\n Выберите пункт: ");
 string? Menu = Console.ReadLine();
 
 if (Menu == "1")
